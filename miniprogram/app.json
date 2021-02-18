@@ -5,6 +5,7 @@
     "pages/user-center/user-center",
     "pages/h5-page/h5-page",
     "pages/poetry/poetry",
+    "pages/resume/resume",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",

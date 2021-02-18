@@ -1,0 +1,52 @@
+/* pages/resume/resume.wxss */
+
+.container {
+  position: relative;
+  height: auto;
+  min-height: 100%;
+}
+
+.container .bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.container .resume-wrap {
+  position: relative;
+  padding: 20rpx 40rpx;
+  z-index: 10;
+  color: white;
+  font-weight: 500;
+}
+
+.resume-wrap .info-wrap + .info-wrap {
+  margin-top: 20rpx;
+}
+
+.info-wrap .title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.info-wrap .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .col {
+  flex: 1;
+  white-space: pre;
+}
+
+.row .col.word-wrap {
+  white-space: normal;
+}
+
+.info-wrap .project-wrap + .project-wrap {
+  margin-top: 20rpx;
+}

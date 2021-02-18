@@ -1,0 +1,143 @@
+<!--pages/resume/resume.wxml-->
+<navigation title="我的简历" show-home="{{false}}" />
+<view class="container">
+  <image class="bg-img" src="/images/bg2.png" />
+  <view class="resume-wrap">
+    <view class="info-wrap">
+      <text class="title">基本信息</text>
+      <view class="row">
+        <text class="col">姓名：龙春表</text>
+        <text class="col">出生年月：1995.01</text>
+      </view>
+      <view class="row">
+        <text class="col">性别：男</text>
+        <text class="col">毕业院校：兰州大学</text>
+      </view>
+      <view class="row">
+        <text class="col">电话：18820186926</text>
+        <text class="col">学    历：本科</text>
+      </view>
+      <view class="row">
+        <text class="col">邮箱：longchb13@lzu.edu.cn</text>
+      </view>
+      <view class="row">
+        <text class="col">专业：计算机科学与技术</text>
+      </view>
+      <view class="row">
+        <text class="col">籍贯：湖南凤凰</text>
+        <text class="col">工作经验：4年</text>
+      </view>
+      <view class="row">
+        <text class="col">到岗时间：1月</text>
+      </view>
+    </view>
+    <view class="info-wrap">
+      <text class="title">教育背景</text>
+      <view class="row">
+        <text class="col">时间：2013.09-2017.06</text>
+      </view>
+      <view class="row">
+        <text class="col">院校：兰州大学（985）</text>
+      </view>
+      <view class="row">
+        <text class="col">专业：计算机科学与技术</text>
+      </view>
+      <view class="row">
+        <text class="col word-wrap">主修课程：Java程序设计，JavaEE，C语言程序设计，C++程序设计，汇编语言，数据结构，数据库设计，算法设计，操作系统，计算机网络，计算机组成原理等</text>
+      </view>
+    </view>
+    <view class="info-wrap">
+      <text class="title">个人相关</text>
+      <view class="row">
+        <text class="col word-wrap">github地址：https://github.com/LesterLong2020</text>
+      </view>
+      <view class="row">
+        <text class="col">npm工具包：lester-tools</text>
+      </view>
+      <view class="row">
+        <text class="col">公众号：夕宿兮君</text>
+      </view>
+      <view class="row">
+        <text class="col">小程序：夕宿兮君</text>
+      </view>
+    </view>
+    <view class="info-wrap">
+      <text class="title">职业技能</text>
+      <view class="row">
+        <text class="col word-wrap">· 熟悉移动端（Hybrid App，H5，Native App，微信小程序），PC端的开发</text>
+      </view>
+      <view class="row">
+        <text class="col word-wrap">· 熟悉Vue，Vue-Router，Vuex，ElementUI，Vux，Axios等Vue生态链的使用</text>
+      </view>
+      <view class="row">
+        <text class="col word-wrap">· 熟悉React，React-Router，React Hook，Redux，Mobx，Ant Design of React，Axios等React生态链的使用</text>
+      </view>
+      <view class="row">
+        <text class="col word-wrap">· 熟悉ES6，ES7，ES8等新语法的使用，了解Typescript的使用</text>
+      </view>
+      <view class="row">
+        <text class="col word-wrap">· 了解Cordova，ReactNative，Flutter的使用</text>
+      </view>
+      <view class="row">
+        <text class="col word-wrap">· 了解Webpack，Gulp等构建工具的使用</text>
+      </view>
+      <view class="row">
+        <text class="col word-wrap">· 了解Echarts，Highcharts等可视化工具的使用</text>
+      </view>
+      <view class="row">
+        <text class="col word-wrap">· 了解 ServerLess、PWA、Service Worker等</text>
+      </view>
+    </view>
+    <view class="info-wrap">
+      <text class="title">项目经历</text>
+      <view class="project-wrap">
+        <view>· 项目名称：TCL微电视公众号</view>
+        <view>时间：2020.3-至今</view>
+        <view>所在公司：TCL电子-软件技术中心</view>
+        <view>技术框架：React，React Hooks，TypeScrip</view>
+        <view>项目简介：1. 暗号活动：用户通过在公众号发送暗号关键字或者他人分享连接进入活动页面，来积攒编号，活动结束时从编号池抽取中奖编号。通过公众号推送消息给中奖用户，用户填写收获地址进行奖品领取。2：会员团购：用户进入团购活动主页后，选择影视会员商品，可发起或参加团购，微信支付成功后，参与成功。待拼团成功后，通过公众号消息通知用户购买成功，在TV端登录对应的账号即可享受会员权益</view>
+        <view>担任职责：参与需求技术评审，还原UI设计稿，和后端联调，负责项目前端部分的版本迭代和维护等</view>
+      </view>
+      <view class="project-wrap">
+        <view>· 项目名称：小T电视小程序</view>
+        <view>时间：2020.11-至今</view>
+        <view>所在公司：TCL电子-软件技术中心</view>
+        <view>技术框架：微信小程序原生开发</view>
+        <view>项目简介：对接用户中心，提供微信/手机号登录方式供用户登录。登录后，主要分为看电视、遥控器、个人中心三大模块。看电视：内嵌看电视h5页面；遥控器：打开电视上的微信互联，微信扫码连接，连接后即可使用手机远程遥控电视；个人中心：账号会员信息、优惠券、开通记录、微信订阅等，并且提供购买会员入口，用web-view打开h5链接并且携带登录态，在h5页面下单成功后返回小程序进行支付</view>
+        <view>担任职责：参与需求技术评审，还原UI设计稿，和后端联调，负责项目前端部分的版本迭代和维护等</view>
+      </view>
+      <view class="project-wrap">
+        <view>· 项目名称：用户反馈系统（移动端、TV端、CMS后台）</view>
+        <view>时间：2020.12-至今</view>
+        <view>所在公司：TCL电子-软件技术中心</view>
+        <view>技术框架：React，React Hooks，Flooks，TypeScript，Antd</view>
+        <view>项目简介：1. CMS后台：问题、问题分类、发布集、用户意见反馈管理；2. TV端：在CMS创建并上线发布集后，展示各问题分类、在线客服、加入反馈QQ群、上传日志等，选择某一问题分类后，展示对应的问题供用户查看，需控制好焦点的移动；3. 移动端：通过TV端扫码携带设备信息，通过用户授权获取定位信息，提交需要反馈的信息，如问题描述、图片、视频等</view>
+        <view>担任职责：参与需求技术评审，还原UI设计稿，和后端联调，对接终端，负责项目前端部分的版本迭代和维护等</view>
+      </view>
+      <view class="project-wrap">
+        <view>· 项目名称：数字品质管理 （App，web）</view>
+        <view>时间：2018.5-2020.2 </view>
+        <view>所在公司：深圳市爱德数智科技股份有限公司</view>
+        <view>技术框架：Vue，Vuex，Exmobi，Cordova，SQLite，EChart，Canvas，Vux，ElementUI，JQuery，Layer</view>
+        <view>项目简介：为了实现工程和验房的发展需求，提升项目信息化管理水平，促进现场管理行为的落实与监督，实现对工程和验房的工作进行和管理。以组织架构和项目为核心，实现了一套对房地产工程和验房的管理流程，主要分为：系统管理、后台管理、看板、报表、日常检查、检查评估、实测实量、工序验收、验房管理、工单管理等模块，每个模块都有对应的消息待办，部分待办为离线操作，用户可在工地等网络不好或者无网络情况下进行操作</view>
+        <view>担任职责：1.产品的前端负责人，熟悉需求并评估工作量，分配前端任务到具体个人并把控进度 2.大部分模块的开发与优化，编写公用组件，更新App应用版本，更新环境，即时解决线上问题 3.离线部分：下载离线数据包，解压，执行脚本，插入数据到Web Sql数据库中，前端自行操作数据库，完成相应的业务功能，最后把数据和图片等文件打包成压缩包上传到后端服务器，完成离线部分的功能</view>
+      </view>
+      <view class="project-wrap">
+        <view>· 项目名称： 设计论坛 （移动端、web）</view>
+        <view>时间：2018.10-2019.3</view>
+        <view>所在公司：深圳市爱德数智科技股份有限公司</view>
+        <view>技术框架：Vue，ElementUI，Vux，Vuex，JQuery，Layer，vue-quil-editor</view>
+        <view>项目简介：类似于知乎的网络问答社区，对各用户进行连接，用户注册账号后可以进行登录社区，可以在社区内进行提问、回答、及评论，关注其他用户，管理个人的信息和提问</view>
+        <view>担任职责：1.项目的前端负责人，熟悉需求并评估工作量，分配前端任务到具体个人并把控进度 2.大部分模块的开发与优化，编写公用组件</view>
+      </view>
+      <view class="project-wrap">
+        <view>· 项目名称： 中海地产管理系统 （App、web）</view>
+        <view>时间：2017.4-2018.5</view>
+        <view>所在公司：深圳市爱德数智科技股份有限公司</view>
+        <view>技术框架：Vue，Vux，Vuex，Cordova，SQLite，Canvas，ElementUI，JQuery，Layer</view>
+        <view>项目简介：为了实现工程和验房的发展需求，提升项目信息化管理水平，促进现场管理行为的落实与监督，实现对工程和验房的工作进行和管理。以组织架构和项目为核心，实现了一套对房地产工程和验房的管理流程，主要分为：日常检查，专项检查，检查评估，交付评估，实测实量，工序验收，验房管理等模块，每个模块都有对应的消息待办，部分待办为离线操作，用户可在工地等网络不好或者无网络情况下进行操作</view>
+        <view>担任职责：日常检查、检查评估、交付评估、实测实量、消息代办模块相关页面的开发，更新环境，优化，实现客户需求等</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -23,10 +23,10 @@
   
   <view class="content-wrap">
     <cell-group ext-class="cell-wrap">
-      <cell data-page="coupon" class="cell-item" link hover value="我的简历" bindtap="jump">
+      <cell data-page="resume" class="cell-item" link hover value="我的简历" bindtap="jump">
         <image class="cell-icon" slot="icon" src="/images/resume.png" alt=""></image>
       </cell>
-      <cell data-page="coupon" class="cell-item" link hover value="少司命" bindtap="jump">
+      <cell data-page="shaoximing" class="cell-item" link hover value="少司命" bindtap="jump">
         <image class="cell-icon" slot="icon" src="/images/feather.png" alt=""></image>
       </cell>
     </cell-group>

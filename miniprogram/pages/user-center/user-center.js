@@ -111,5 +111,13 @@ Page({
         userInfo: e.detail.userInfo,
         hasUserInfo: true,
     });
-},
+  },
+
+  jump(e) {
+    const { page } = e.target.dataset;
+    console.log(e.target.dataset.page)
+    wx.navigateTo({
+      url: `/pages/${page}/${page}`,
+    })
+  }
 })
