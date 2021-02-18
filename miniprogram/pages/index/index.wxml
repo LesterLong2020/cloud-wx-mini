@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<navigation title="{{title}}" show-back="{{false}}" show-home="{{false}}" />
+<view class="container">
+  <image class="bg-img" src="/images/bg5.png" />
+  <view class="article-list">
+    <view class="article-item" wx:for="{{articleList}}" wx:key="id" data-url="{{item.url}}" bindtap="goPublicArticle">
+      {{item.name}}
+    </view>
+  </view>
+</view>
